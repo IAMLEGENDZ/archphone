@@ -28,8 +28,8 @@ I would like to run normal desktop apps with my phone, but that seems impossible
 ## Things that could stop or slow down this project:
 - Binary wifi/BT/camera drivers
 - Audio (audio didn't work on Ubuntu, so it's very unlikely I get it working)
-- systemd wants pretty new kernel (I don't remember from head, but 3.4.x is too old) (I can set pacman to hold systemd package)
-- Freedreno driver, which maybe doesn't work with Nexus 5 GPU (not sure)
+- ~~systemd wants pretty new kernel (I don't remember from head, but 3.4.x is too old) (I can set pacman to hold systemd package)~~ 3.10 is enough
+- Freedreno driver, which maybe doesn't work with Nexus 5 GPU (needs testing)
 
 ## Things what are bad, but won't slow down this project:
 - Desktop apps are bit big for phones.
@@ -43,3 +43,7 @@ I would like to run normal desktop apps with my phone, but that seems impossible
 - Freedreno: https://github.com/freedreno/freedreno
 - If I ever need Mali GPU driver: http://limadriver.org/
 - libhybris: https://github.com/libhybris/libhybris
+- Gentoo on TF201: https://wiki.gentoo.org/wiki/Asus_Transformer_Prime
+- Any linux distro on TF201: http://lifeinarootshell.blogspot.it/2013/03/howto.html
+- Nokia N900 Arch Linux: https://github.com/archlinuxarm-n900
+- Ubuntu Touch and Android on LXC: https://wiki.ubuntu.com/Touch/ContainerArchitecture
