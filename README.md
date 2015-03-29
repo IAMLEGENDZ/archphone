@@ -1,4 +1,6 @@
 # ArchPhone
+[Reddit link](http://www.reddit.com/r/linux/comments/30iydm/arch_linux_on_mobile_phones_idea/)
+
 A project what aims to get GNOME Shell, Arch Linux and Wayland working on Android tablets/phones natively (no chroot)
 
 # Why? There is Ubuntu Touch already!
