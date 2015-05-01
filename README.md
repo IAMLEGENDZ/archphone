@@ -1,5 +1,8 @@
 # ArchPhone
-[Reddit link](http://www.reddit.com/r/linux/comments/30iydm/arch_linux_on_mobile_phones_idea/)
+
+Current status: Researching
+
+Updates: Got Nexus 7 to hack on, can't get LXC to compile with android compiler
 
 A project what aims to get GNOME Shell, Arch Linux and Wayland working on Android tablets/phones natively (no chroot)
 
@@ -12,6 +15,8 @@ I would like to run normal desktop apps with my phone, but that seems impossible
 - ~~Research how does Android boot.~~ DONE
 - ~~Do some research at Google Nexus 5 drivers and kernel.~~ Everything else except Wifi seems tricky
 - ~~Build serial debug cable~~ Needs proper schematic, but I can live without it atm
+- ~~Install Arch Linux into LXC on Android~~ FAIL, can't get android compiler working
+- Get Arch Linux installed on Google Nexus 7 (2012)
 - Get Arch Linux installed on Google Nexus 5 and get display working
 - Run Weston with freedreno driver
 - Usable GNOME DE (with keyboard and mouse at first place)
@@ -49,3 +54,5 @@ I would like to run normal desktop apps with my phone, but that seems impossible
 - Any linux distro on TF201: http://lifeinarootshell.blogspot.it/2013/03/howto.html
 - Nokia N900 Arch Linux: https://github.com/archlinuxarm-n900
 - Ubuntu Touch and Android on LXC: https://wiki.ubuntu.com/Touch/ContainerArchitecture
+- Arch Linux on Nexus 7 2013: https://github.com/crondog/arch-flo
+- Arch Linux on Nexus 7 2012: https://docs.google.com/document/d/1G9vF5v2TN2c6ocyb_hmD1ve7OK4GdCP84rfaXgiLmB4/edit?pli=1 
