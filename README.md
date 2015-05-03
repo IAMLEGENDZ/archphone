@@ -2,7 +2,7 @@
 
 Current status: Researching
 
-Updates: Got Nexus 7 to hack on, can't get LXC to compile with android compiler
+Updates: Arch Linux ran on Nexus 7, now it's time to create same MultiROM package for Nexus 5
 
 A project what aims to get GNOME Shell, Arch Linux and Wayland working on Android tablets/phones natively (no chroot)
 
@@ -16,7 +16,7 @@ I would like to run normal desktop apps with my phone, but that seems impossible
 - ~~Do some research at Google Nexus 5 drivers and kernel.~~ Everything else except Wifi seems tricky
 - ~~Build serial debug cable~~ Needs proper schematic, but I can live without it atm
 - ~~Install Arch Linux into LXC on Android~~ FAIL, can't get android compiler working
-- Get Arch Linux installed on Google Nexus 7 (2012)
+- ~~Get Arch Linux installed on Google Nexus 7 (2012)~~
 - Get Arch Linux installed on Google Nexus 5 and get display working
 - Run Weston with freedreno driver
 - Usable GNOME DE (with keyboard and mouse at first place)
@@ -26,6 +26,7 @@ I would like to run normal desktop apps with my phone, but that seems impossible
 
 # Ideas for later
 - Touchscreen here I come
+- MultiROM package, not tutorial how to replace Android
 - XWayland
 - Get camera and bluetooth working (libhybris??)
 - Make kernel only to boot into Arch Linux (Android features removed)
@@ -36,8 +37,8 @@ I would like to run normal desktop apps with my phone, but that seems impossible
 ## Things that could stop or slow down this project:
 - Binary wifi/BT/camera drivers
 - Audio (audio didn't work on Ubuntu, so it's very unlikely I get it working)
-- systemd wants pretty new kernel (I don't remember from head, but 3.4.x is too old) (I can set pacman to hold systemd package)
-- no info for Freedreno on Nexus 5 !!
+- ~~systemd wants pretty new kernel (I don't remember from head, but 3.4.x is too old) (I can set pacman to hold systemd package)~~ Seems like Android kernel got many backported stuff. systemd runsn even on Nexus7 kernel (which is 3.1.x)
+- no info for Freedreno on Nexus 5 !! or if Freedreno works, I can run only older Xorg
 
 ## Things what are bad, but won't slow down this project:
 - Desktop apps are bit big for phones.
