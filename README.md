@@ -1,10 +1,10 @@
 # ArchPhone
 
-Current status: Researching
+A project what aims to get GNOME Shell, Arch Linux and Wayland working on Android tablets/phones natively (no chroot)
+
+Current status: _Researching_
 
 Updates: Arch Linux ran on Nexus 7, now it's time to create same MultiROM package for Nexus 5
-
-A project what aims to get GNOME Shell, Arch Linux and Wayland working on Android tablets/phones natively (no chroot)
 
 # Why? There is Ubuntu Touch already!
 Actually, Ubuntu Touch gave me an idea for this.
