@@ -2,9 +2,9 @@
 
 A project what aims to get GNOME Shell, Arch Linux and Wayland working on Android tablets/phones natively (no chroot)
 
-Current status: _Researching_
+Current status: _Paused_
 
-Updates: Arch Linux ran on Nexus 7, now it's time to create same MultiROM package for Nexus 5
+Updates: I don't have time to update(and research) :( I have school, social life and other stuff to deal with
 
 # Why? There is Ubuntu Touch already!
 Actually, Ubuntu Touch gave me an idea for this.
@@ -21,7 +21,7 @@ I would like to run normal desktop apps with my phone, but that seems impossible
 - Run Weston with freedreno driver
 - Usable GNOME DE (with keyboard and mouse at first place)
 - Install Chromium and things I normally use
-- Get 3.17+ kernel or TSYNC patch to make Chromium useable. [See this](http://www.phoronix.com/scan.php?page=news_item&px=Google-Chrome-TSYNC-Kernel)
+- Get 3.17+ kernel or TSYNC patch to make Chromium usable. [See this](http://www.phoronix.com/scan.php?page=news_item&px=Google-Chrome-TSYNC-Kernel)
 - 3G Networking
 
 # Ideas for later
@@ -36,7 +36,7 @@ I would like to run normal desktop apps with my phone, but that seems impossible
 
 ## Things that could stop or slow down this project:
 - Binary wifi/BT/camera drivers
-- Audio (audio didn't work on Ubuntu, so it's very unlikely I get it working)
+- ~~Audio (audio didn't work on Ubuntu, so it's very unlikely I get it working)~~ _carmine_ sent me a nice e-mail, and said that audio is working (yay!)
 - ~~systemd wants pretty new kernel (I don't remember from head, but 3.4.x is too old) (I can set pacman to hold systemd package)~~ Seems like Android kernel got many backported stuff. systemd runsn even on Nexus7 kernel (which is 3.1.x)
 - no info for Freedreno on Nexus 5 !! or if Freedreno works, I can run only older Xorg
 
