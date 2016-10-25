@@ -2,9 +2,9 @@
 
 A project what aims to get GNOME Shell, Arch Linux and Wayland working on Android tablets/phones natively (no chroot)
 
-Current status: _Paused_
+Current status: __Researching and testing stuff__
 
-Updates: I don't have time to update(and research) :( I have school, social life and other stuff to deal with
+Updates: Got new phone and got bored so I decided to continue
 
 # Why? There is Ubuntu Touch already!
 Actually, Ubuntu Touch gave me an idea for this.
@@ -45,6 +45,7 @@ I would like to run normal desktop apps with my phone, but that seems impossible
 - I don't know how libhybris actually works!
 
 ## Useful things:
+- [KDE Plasma MultiROM image](https://community.kde.org/Plasma/Mobile/MultiROM) (tested on Nexus 5)
 - Nexus 6 3.10 kernel: http://goo.gl/uHhDzb
 - Nexus 4 Fedora: https://github.com/freedreno/nexus4-fedora *CHROOT*
 - Android boot: http://elinux.org/Android_Booting
