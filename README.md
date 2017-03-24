@@ -58,3 +58,4 @@ I would like to run normal desktop apps with my phone, but that seems impossible
 - Ubuntu Touch and Android on LXC: https://wiki.ubuntu.com/Touch/ContainerArchitecture
 - Arch Linux on Nexus 7 2013: https://github.com/crondog/arch-flo
 - Arch Linux on Nexus 7 2012: https://docs.google.com/document/d/1G9vF5v2TN2c6ocyb_hmD1ve7OK4GdCP84rfaXgiLmB4/edit?pli=1 
+- Linux 4.9 Adds Support For 29 New ARM Machines, Includes Raspberry Pi Zero & LG Nexus 5: http://www.phoronix.com/scan.php?page=news_item&px=Linux-4.9-ARM-Pull
